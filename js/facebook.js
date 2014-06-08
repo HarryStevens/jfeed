@@ -90,11 +90,9 @@ function testAPI() {
 			document.getElementById("address").innerHTML = response.location.name;
 			document.getElementById("position").innerHTML = response.work[0].position.name;
 			document.getElementById("employer").innerHTML = response.work[0].employer.name;
-
-			//The 2 in the array is just a place holder. Need to update dynamically.
-			document.getElementById("education").innerHTML = response.education[2].school.name;
+			var latestSchool = (response.education.length)-1;
+			document.getElementById("education").innerHTML = response.education[latestSchool].school.name;
 			
-			console.log(response.name);
 
 			//History.js for header titles. URL must remain the same because there's no way to handle reloads right now. Once the database is working, this can change
 			History.pushState({
