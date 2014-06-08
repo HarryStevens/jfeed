@@ -1,0 +1,23 @@
+#profile-wrapper {
+	margin-top: 60px;
+	margin-bottom: 600px;
+	margin-left: 16.67%;
+	padding-top: 10px;
+	text-shadow: 1px 1px #fff;
+}
+#profile-image {
+	float: left;
+	margin-right: 10px;
+}
+#user-name {
+	font-weight: bold;
+	font-size: 24px;
+}
+#job {
+	font-style: italic;
+	font-size: 18px;
+}
+.profile-field {
+	font-weight: bold;
+	margin-top: 8px;
+}

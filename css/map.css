@@ -1,0 +1,33 @@
+#map-space {
+	margin-top: 49px;
+	padding-top: 1px;
+	background-color: #fff;
+}
+#map-search {
+	margin-top: 10px;
+
+	margin-left:-5px;
+}
+#map-canvas {
+	height: 600px;
+	margin-bottom: 20px;
+}
+.map-search-item {
+	display: inline;
+	margin-bottom: 10px;
+}
+.ui-menu .ui-menu-item a {
+	font-family: sans-serif;
+	list-style-image: none;
+	background: none;	
+	color:#aaa;
+}
+.ui-menu .ui-menu-item a:hover {
+	color:#000;
+}
+.ui-menu .ui-menu-item a:focus {
+	color:#000;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+	border-radius: 0px;
+}
