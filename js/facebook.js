@@ -95,9 +95,10 @@ function testAPI() {
 			
 
 			//History.js for header titles. URL must remain the same because there's no way to handle reloads right now. Once the database is working, this can change
+			var profilePhp = "/profile.php"
 			History.pushState({
 				state : 1
-			}, "JFeed | "+response.name, "/");
+			}, "JFeed | "+response.name, profilePhp);
 		}
 	});
 }
